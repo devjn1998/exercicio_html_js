@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Signika Negative", sans-serif;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(199, 236, 253);
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid rgba(88, 169, 216, 0.493);
+    border-radius: 10px;
+
+}
+
+h1
+{
+    margin: 10px;
+}
+
+h2
+{
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.inputConfig
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input
+{
+    margin: 5px;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px rgba(78, 78, 78, 0.219);
+}
+
+form input:focus
+{
+    outline: none;
+}
+
+input[type="number"]
+{
+    text-align: center;
+}
+
+input[type="number"]::placeholder
+{
+    text-align: center;
+}
+
+form input[type=number]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+}
+
+#btn-comparar
+{
+    width: 180px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(18, 18, 105);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#btn-comparar:hover
+{
+    background-color: rgb(40, 40, 146);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.msg-sucess
+{
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    display: none;
+    
+}
+.msg-fail
+{
+    margin-top: 10px;
+    background-color: rgb(146, 6, 6);
+    color: white;
+    padding: 5px;
+    display: none;
+    
+}
